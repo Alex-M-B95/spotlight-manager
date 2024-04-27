@@ -1,0 +1,43 @@
+#players-list .player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#players-list .player-toggle.active {
+  opacity: 1;
+}
+
+#players-list .player-toggle {
+  opacity: 0.44;
+}
+
+.top-button {
+  margin-bottom: 20px;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.player-timer {
+  margin-left: 20px;
+}
+
+.player-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+  background-color: black;
+}
+
+.player-name {
+  margin: 0;
+}

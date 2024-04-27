@@ -1,0 +1,26 @@
+{
+  "id": "spotlight-manager",
+  "title": "spotlight-manager",
+  "description": "This module provides awesome features for Foundry VTT.",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Alex M.",
+      "url": "https://github.com/Alex-M-B95"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "sources/setup.js"
+  ],
+  "styles": [
+    "styles/spotlight-manager.css"
+  ],
+  "url": "https://github.com/Alex-M-B95/spotlight-manager",
+  "bugs": "https://github.com/Alex-M-B95/spotlight-manager/issues",
+  "manifest": "https://github.com/Alex-M-B95/spotlight-manager/raw/main/module.json",
+  "download": "https://github.com/Alex-M-B95/spotlight-manager/releases/download/0.0.1/release.zip"
+}

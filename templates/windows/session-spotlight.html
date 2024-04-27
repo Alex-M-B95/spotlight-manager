@@ -1,0 +1,12 @@
+<div id="players-list">
+  <button type="button" class="top-button" id="finish-session-button">Finish session</button>
+  {{#each players}}
+  <div class="player player-toggle {{active}}" data-player-id="{{id}}">
+    <div class="player-info">
+      <img src="{{portrait}}" alt="{{name}}" class="player-avatar">
+      <p class="player-name">{{name}}</p>
+    </div>
+    <div class="player-timer" id="timer-{{id}}">{{spotlight}}</div>
+  </div>
+  {{/each}}
+</div>

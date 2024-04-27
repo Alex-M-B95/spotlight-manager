@@ -1,0 +1,11 @@
+<div id="start-session-screen">
+  <form id="players-form">
+    <button type="button" class="top-button" id="start-session-button">Start session</button>
+    {{#each players}}
+    <div class="player-checkbox">
+      <input type="checkbox" id="player-{{id}}" data-player-id="{{id}}" checked>
+      <label for="player-{{id}}">{{name}}</label>
+    </div>
+    {{/each}}
+  </form>
+</div>
