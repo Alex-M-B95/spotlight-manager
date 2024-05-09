@@ -1,4 +1,4 @@
-import { log } from './utils.js'
+import { log, Constants } from './utils.js'
 import { NewSessionWindow } from './screens/new-session.js'
 import { SessionSpotlightWindow } from './screens/session-spotlight.js'
 import { Session } from './models/session.js'
@@ -48,7 +48,7 @@ export class Setup {
 
     static #registerKeyboardShortcuts() {
         game.keybindings.register(
-            'spotlight-manager',
+            Constants.moduleName,
             'open-spotlight-window-shortcut',
             {
                 name: "Open Spotlight Window",

@@ -1,5 +1,5 @@
 export class Constants {
-    static get moduleName() { return 'spotlight-manager'}
+    static get moduleName() { return 'alexs-spotlight-manager'}
     
     static get updateTriggerHookName() { return `${this.moduleName}.hooks.update-trigger` }
     
@@ -8,6 +8,6 @@ export class Constants {
 
 export function log(...args) {
     if (Constants.isDebugMode) {
-        console.log(`[${Constants.moduleName}]`, ...args)    
+        console.log(`${Constants.moduleName} |`, ...args)
     }
 }

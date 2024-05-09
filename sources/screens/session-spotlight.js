@@ -11,7 +11,7 @@ export class SessionSpotlightWindow extends Application {
         return mergeObject(super.defaultOptions, {
             id: "session-spotlight-window",
             title: "Session Spotlight",
-            template: "modules/spotlight-manager/templates/windows/session-spotlight.html",
+            template: `modules/${Constants.moduleName}/templates/windows/session-spotlight.html`,
             width: 'auto',
             height: 'auto',
             resizable: true

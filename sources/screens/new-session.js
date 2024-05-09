@@ -1,4 +1,4 @@
-import { log } from '../utils.js'
+import { log, Constants } from '../utils.js'
 import { Session } from '../models/session.js'
 import { SessionSpotlightWindow } from './session-spotlight.js'
 
@@ -12,7 +12,7 @@ export class NewSessionWindow extends Application {
         return mergeObject(super.defaultOptions, {
             id: "new-session-window",
             title: "New Session",
-            template: "modules/spotlight-manager/templates/windows/new-session.html",
+            template: `modules/${Constants.moduleName}/templates/windows/new-session.html`,
             width: 'auto',
             height: 'auto',
             popOut: true,
